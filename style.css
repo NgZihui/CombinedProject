@@ -802,6 +802,9 @@ a.text-hover:hover:after,
 .text-hover a:focus:after,
 a.text-hover:focus:after {
   width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  background-color: #000;
 }
 
 .text-hover li a.border-0:after,
